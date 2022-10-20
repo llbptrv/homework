@@ -1,10 +1,11 @@
-﻿
+﻿//задача 27
+
+Console.Write("введите число: ");
 int n= Convert.ToInt32(Console.ReadLine());
-int i=0;
-int sum=0;
-while(i<=n)
+int result=0;
+while(n>0)
 {
-    sum= sum + i;
-    i++;
+    result=result + n%10;
+    n=n/10;
 }
-Console.WriteLine(sum);
+Console.WriteLine(result);
