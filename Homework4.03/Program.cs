@@ -1,4 +1,6 @@
-﻿int[] array = new int[8];
+﻿//задача 29
+
+int[] array = new int[8];
 int length=array.Length;
 int index=0;
 
