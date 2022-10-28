@@ -1,4 +1,5 @@
-﻿double[] array = new double[4];
+﻿//задача 38
+double[] array = new double[4];
 for(int i=0; i<array.Length; i++)
 {
     array[i]=Math.Round(new Random().NextDouble()*100, 2);
