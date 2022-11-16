@@ -1,4 +1,6 @@
-﻿void InputMatrix(int[,] matrix)
+﻿//Задача 58: Задайте две матрицы. Напишите программу, которая будет находить произведение двух матриц.
+
+void InputMatrix(int[,] matrix)
 {
     
     for (int i = 0; i < matrix.GetLength(0); i++)
