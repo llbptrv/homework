@@ -1,4 +1,5 @@
-﻿void InputMatrix(int[,] matrix)
+﻿//Задача 54: Задайте двумерный массив. Напишите программу, которая упорядочит по убыванию элементы каждой строки двумерного массива.
+void InputMatrix(int[,] matrix)
 {
     
     for (int i = 0; i < matrix.GetLength(0); i++)
