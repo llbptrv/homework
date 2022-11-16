@@ -1,4 +1,5 @@
-﻿void InputMatrix(int[,] matrix)
+﻿//Задача 62. Напишите программу, которая заполнит спирально массив 4 на 4.
+void InputMatrix(int[,] matrix)
 {
     
     int t=1; 
