@@ -1,4 +1,5 @@
-﻿void InputMatrix(int[,] matrix)
+﻿//Задача 56: Задайте прямоугольный двумерный массив. Напишите программу, которая будет находить строку с наименьшей суммой элементов.
+void InputMatrix(int[,] matrix)
 {
     
     for (int i = 0; i < matrix.GetLength(0); i++)
